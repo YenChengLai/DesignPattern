@@ -42,8 +42,8 @@ class SingletonLazy {
     }
 
     public static SingletonLazy getInstance() {
-        if (instance == null) {
-            return new SingletonLazy();
+        if(instance == null) {
+            instance = new SingletonLazy();
         }
         return instance;
     }
