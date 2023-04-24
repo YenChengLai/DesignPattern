@@ -31,9 +31,19 @@
     - creating complex objects
     - encapsulating the construction logic of an object
     - generating different representations of an object based on pass-in parameters
-  - Benefits:
+  - benefits:
     - separation of concerns
     - readability and maintainability
     - flexibility in creation process
-
+4. Prototype
+  - purpose: to create new object efficiently by duplicate an existing one
+  - common use cases:
+    - creating new instance with similar status
+    - when the object creating process is expensive (like reading resources)
+    - when you need to decouple the object creation process from the class hierarchy
+  - benefits:
+    - improve object creation performance
+    - simplify object creation process
+    - support runtime object creation
+    
 ### Behavioral Patterns
