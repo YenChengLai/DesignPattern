@@ -1,6 +1,6 @@
 # Design Patterns in Java
 
-### Creational Pattern
+### Creational Patterns
 1. Singleton
   - purpose: to ensure there's only one instance generated
   - type:
@@ -25,3 +25,15 @@
     - Creation of objects with complex initialization logic
     - Creation of objects in a multithreaded environment
   - benefit: using factory can encapsulate the object creating process, which makes it easier to maintain, especially in large and complex project code base
+3. Builder
+   - purpose: to simplify the creation process for a complex object (too many parameters in the constructor)
+   - common use cases:
+     - creating complex objects
+     - encapsulating the construction logic of an object
+     - generating different representations of an object based on pass-in parameters
+   - Benefits:
+     - separation of concerns
+     - readability and maintainability
+     - flexibility in creation process
+
+### Behavioral Patterns
