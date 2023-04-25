@@ -47,3 +47,13 @@
     - support runtime object creation
     
 ### Behavioral Patterns
+1. Strategy
+   - purpose: allow the context object to choose appropriate algorithm at runtime and encapsulate each algorithm in different classes
+   - common use cases:
+     - when there are multiple ways to perform a task, and it needed to switch frequently.
+     - when you want to decouple the algorithms from the class
+   - benefit:
+     - decoupling and make the code more flexible
+     - separation of concerns by encapsulate behaviors in different classes
+     - don't need to change the context class when adding new algorithms
+   - note: it's very similar to the polymorphism idea
